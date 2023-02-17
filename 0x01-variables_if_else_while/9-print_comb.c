@@ -7,14 +7,14 @@ int main(void)
 {
 	int c = 0;
 
-	while (c < 9)
+	for (c = 0; c <= 9; c++)
 	{
 		putchar((c % 10) + '0');
+		if (c == 9)
+			continue;
 		putchar(',');
 		putchar(' ');
-		c++;
-
 	}
-	putchar((9 % 10) + '0' + ' ');
+	putchar(('\n');
 	return (0);
 }
