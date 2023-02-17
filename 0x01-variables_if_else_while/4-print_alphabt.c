@@ -1,4 +1,4 @@
-#include <stdin.h>
+#include <stdio.h>
 /**
  * main - Print the alphabet in lowercase and then new line
  * Return: Always 0
