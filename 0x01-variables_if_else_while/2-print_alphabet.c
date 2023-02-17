@@ -8,9 +8,10 @@ int main(void)
 {
 	int c = 'a';
 
-	while (c <='z')
+	while (c <= 'z')
 	{
 		putchar(c++);
 	}
-	return 0;
+	putchar("\n");
+	return (0);
 }
