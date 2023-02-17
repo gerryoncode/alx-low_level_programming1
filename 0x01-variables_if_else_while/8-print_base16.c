@@ -11,6 +11,7 @@ int main(void)
 	while (c <= 10)
 	{
 		putchar((c % 10) + '0');
+		c++;
 	}
 	while (n <= 'f')
 	{
