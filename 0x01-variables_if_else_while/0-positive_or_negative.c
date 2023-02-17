@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * main - Entry point of the code
+/**
+ * main - Prints a random number and states whether
+ *        it is positive, negative, or zero.
  * if_else - conditional statement
  * Return: Always 0 for success
  */
