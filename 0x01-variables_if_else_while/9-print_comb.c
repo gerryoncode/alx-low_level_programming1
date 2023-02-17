@@ -15,6 +15,6 @@ int main(void)
 		c++;
 
 	}
-	putchar((9 % 10) + '0');
+	putchar((9 % 10) + '0' + ' ');
 	return (0);
 }
