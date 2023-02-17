@@ -3,13 +3,12 @@
  * main - Prints lowecas ealphabets
  * putchar - Prints a single character at a time.
  * Return: 0 for success
- * /
-
+ */
 int main(void)
 {
 	int c = 'a';
 
-	while(c <='z')
+	while (c <='z')
 	{
 		putchar(c++);
 	}
