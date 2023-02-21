@@ -1,4 +1,4 @@
-int "main.h"
+#include "main.h"
 /**
  * _islower - Checks if the alphabets are lowercase
  * Return: Always 0
