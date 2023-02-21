@@ -4,7 +4,7 @@
  * printf - Prints the alphabet and then a new line
  * Retun: Always  0
  */
-int print_alphabet()
+int print_alphabet(void)
 {
 	char c = 'z';
 	while(c < 'z')
