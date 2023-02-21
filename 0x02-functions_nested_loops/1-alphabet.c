@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- * main - Entry point
  * print_alphabet - Prints the alphabet and then a new line
  * Retun: Always  0
  */
