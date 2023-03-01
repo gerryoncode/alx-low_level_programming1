@@ -4,7 +4,7 @@
  * @dest: First string pointer
  * @src: Second string pointer
  * @n: Integer parameter
- * Return: returns pointer to the resulting str
+ * Return: returns pointer to the resulting string dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -14,15 +14,14 @@ char *_strncat(char *dest, char *src, int n)
 		;
 	for (j = 0; j < n; j++)
 	{
-		if (src[j] != '\0')
+		if (*(src + j) != '\0')
 		{
-			dest[i] = src[j];
+			*(dest + i) = *(src + j);
 			i++;
-		} else
-		{
-			return (desc);
 		}
+		else
+			return (dest);
 	}
-	desc[i] = '\0';
+	*(dest + i) = '\0';
 	return (dest);
 }
