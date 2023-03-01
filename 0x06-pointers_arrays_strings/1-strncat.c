@@ -4,7 +4,7 @@
  * @dest: First string pointer
  * @src: Second string pointer
  * @n: Integer parameter
- * Return: Always 0
+ * Return: returns pointer to the resulting str
  */
 char *_strncat(char *dest, char *src, int n)
 {
