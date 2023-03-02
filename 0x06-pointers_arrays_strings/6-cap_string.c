@@ -1,10 +1,5 @@
 #include "main.h"
 /**
-*string_toupper - changes all lowercase letters of a string to uppercase
-*@s: string
-*Return: s
-*/
-/**
 *cap_string - capitalizes all words of a string.
 *@s: string
 *Return: s
