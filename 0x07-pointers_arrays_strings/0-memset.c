@@ -2,9 +2,9 @@
 /**
  * _memset -fills first n bytes of memory with constant byte b
  * @s - First pointer
- * @n - number of bytes
  * @b - constant byte
- * Return: Returns filled 
+ * @n - bytes of memory address
+ * Return: s
  */
 int *_memset(char *s, char b, unsigned int n)
 {
@@ -14,4 +14,5 @@ int *_memset(char *s, char b, unsigned int n)
 	{
 		s[i] = b;
 	}
+	return (s);
 }
