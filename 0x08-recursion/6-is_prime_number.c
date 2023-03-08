@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
 *aux - find out exact divider
 * @a: number
