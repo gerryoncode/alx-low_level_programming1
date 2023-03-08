@@ -1,3 +1,9 @@
+/**
+ * div: checks if number multiplies by itself to give n
+ * @n: first parameter
+ * @d: Second parameter
+ * Return: the square root of n
+ */
 int div(int n, int d)
 {
 	if (d * d == n)
