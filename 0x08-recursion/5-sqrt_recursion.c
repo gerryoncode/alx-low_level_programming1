@@ -1,5 +1,5 @@
 /**
- * div: checks if number multiplies by itself to give n
+ * div - checks if number multiplies by itself to give n
  * @n: first parameter
  * @d: Second parameter
  * Return: the square root of n
