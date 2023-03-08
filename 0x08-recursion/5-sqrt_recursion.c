@@ -1,6 +1,6 @@
 int div(int n, int d)
 {
-	if (d *d == n)
+	if (d * d == n)
 	{
 		return (d);
 	}
@@ -13,7 +13,7 @@ int div(int n, int d)
 #include "main.h"
 /**
  * _sqrt_recursion: returns the natural squareroot of a number
- * @n: number to find natural log of 
+ * @n: number to find natural log of
  * Return: squareroot of the number or -1
  */
 int _sqrt_recursion(int n)
