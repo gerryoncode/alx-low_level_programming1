@@ -5,7 +5,7 @@
  * @argv: Second argument
  * Return: zero for success
  */
-int main(int __attribute__((unused)) argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
 	printf("%s", argv[0]);
 	return (0);
