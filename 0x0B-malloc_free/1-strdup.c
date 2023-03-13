@@ -1,10 +1,11 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * _strdup - returns a pointer to anew string
  * @str: String to be copied to the new block
  * Return: a new pointer to a string
  */
-chat *_strdup(char *str)
+char *_strdup(char *str)
 {
 	int i = 0;
 	int j = 0;
