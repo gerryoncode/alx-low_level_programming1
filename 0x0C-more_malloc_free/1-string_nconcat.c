@@ -1,4 +1,4 @@
-#include "1-string_nconcat.c"
+#include "main.h"
 /**
  * string_nconcat - concats first string with n bytes of second string
  * @s1: first string
