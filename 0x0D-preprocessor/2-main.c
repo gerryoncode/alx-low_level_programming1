@@ -6,5 +6,5 @@
 int main(void)
 {
 	printf(__FILE__);
-	return(0);
+	return (0);
 }
