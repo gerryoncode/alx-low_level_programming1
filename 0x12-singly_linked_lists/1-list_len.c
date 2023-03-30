@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
 #include "lists.h"
 /**
  * list_len - returns the number of elements in a link
