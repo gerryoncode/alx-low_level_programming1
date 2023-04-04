@@ -1,5 +1,5 @@
 #include "lists.h"
-#include <stdio.h>
+#include <stdlib.h>
 /**
  * add_nodeint_end - adds node to the end of the list
  * @head: The list unto which the node will be added
