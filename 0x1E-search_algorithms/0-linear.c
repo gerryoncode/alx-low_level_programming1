@@ -2,10 +2,10 @@
 
 /**
  * linear_search - Linearly searches the array that matches the value
- * @arrat: Array to search through
+ * @array: Array to search through
  * @size: The size of the array
  * @value: Value to be searched for
- * Return - the index at value or -1
+ * Return: the index at value or -1
  * 
 */
 
